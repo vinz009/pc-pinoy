@@ -61,6 +61,8 @@ Rails.application.configure do
 
   # Server always compile
   config.assets.prefix = "/dev-assets"
+  config.assets.compile = true
+  config.assets.debug = true
 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true

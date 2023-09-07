@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
-= require main
+= require_tree .
+= require_self
+
+
+
 
 
