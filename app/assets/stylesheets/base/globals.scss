@@ -4,7 +4,7 @@
 }
 
 .top {
-	background-color: green;
+	background-image: linear-gradient(to right, rgb(233, 140, 129) 0%, rgb(233, 140, 129) 100%);
 }
 
 .navbar-one {
@@ -16,6 +16,29 @@
 .row {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.row {
+	a {
+		border: 1px solid white;
+		width: auto;
+		padding: 5px 20px;
+		line-height: 90px;
+		height: 30px;
+	}
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	.logo {
+		p {
+			display: inline-block;
+		}
+		img {
+			max-width: 125px;
+		}
+	}
 }
 
 body {
