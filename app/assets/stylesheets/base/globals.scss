@@ -1,50 +1,42 @@
+body {
+  font-family: "WorkSans";
+}
 
 .container {
-	display: grid;
+  display: grid;
 }
 
-.top {
-	background-image: linear-gradient(to right, rgb(233, 140, 129) 0%, rgb(233, 140, 129) 100%);
-}
-
-.navbar-one {
-	max-width: 1140px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.row {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.row {
-	a {
-		border: 1px solid white;
-		width: auto;
-		padding: 5px 20px;
-		line-height: 90px;
-		height: 30px;
-	}
+.advert {
+  background-image: linear-gradient(
+    to right,
+    rgb(233, 140, 129) 0%,
+    rgb(233, 140, 129) 100%
+  );
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    a {
+      border: 1px solid white;
+      width: auto;
+      padding: 5px 20px;
+      line-height: 90px;
+      height: 30px;
+    }
+  }
 }
 
 nav {
-	display: flex;
-	justify-content: space-around;
-	.logo {
-		p {
-			display: inline-block;
-		}
-		img {
-			max-width: 125px;
-		}
-	}
-}
-
-body {
-    font-family: "WorkSans";
-}
-
-li {
-	background-color: red;
+  display: flex;
+  justify-content: space-around;
+  .logo {
+    p {
+      display: inline-block;
+    }
+    img {
+      max-width: 125px;
+    }
+  }
 }
