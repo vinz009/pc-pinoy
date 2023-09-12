@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @message = "Hello world"
-    @processors = Processor.all
+    @products = Product.all
   end
 end

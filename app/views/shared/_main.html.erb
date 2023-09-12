@@ -40,15 +40,25 @@
 </aside>
 
 <main>
+</main>
   <div class="products">
     <p>Showing 2999 result for all</p>
     <div class="card">
-      <p>Processor</p>
+      <% @products.each do |product| %>
+      <p>
+      <%= product.type_name %>
+      </p>
       <%= image_tag "" %>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Php5,999.00</p>
+      <p>
+      <%= product.brand %>
+      <%= product.name %>
+      <%= product.description %>
+      </p>
+      <p>
+      <%= product.price %>
+      </p>
+    <% end %>
     </div>
   </div>
-</main>
 
 </div>
