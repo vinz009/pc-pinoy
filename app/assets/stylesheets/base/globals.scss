@@ -42,9 +42,16 @@ nav {
 }
 
 .products {
+	.items {
+	display: flex;
+	flex-wrap: wrap;
+	}
   .card {
     background-color: grey;
     width: 300px;
+		padding: 5px;
+		margin: 5px;
+		border: 1px solid black;
   }
   img {
     width: 200px;

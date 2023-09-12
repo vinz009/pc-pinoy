@@ -43,8 +43,9 @@
 </main>
   <div class="products">
     <p>Showing 2999 result for all</p>
-    <div class="card">
+        <div class="items">
       <% @products.each do |product| %>
+    <div class="card">
       <p>
       <%= product.type_name %>
       </p>
@@ -57,8 +58,9 @@
       <p>
       <%= product.price %>
       </p>
-    <% end %>
     </div>
+    <% end %>
+        </div>
   </div>
 
 </div>
