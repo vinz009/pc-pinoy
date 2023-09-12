@@ -59,14 +59,14 @@ aside {
       display: block;
     }
   }
-}
 
-.dropdown {
-  &:hover {
-    .dropdown-content {
-      display: block;
-      a:hover {
-        background-color: #ddd;
+  .dropdown {
+    &:hover {
+      .dropdown-content {
+        display: block;
+        a:hover {
+          background-color: #ddd;
+        }
       }
     }
   }
