@@ -42,11 +42,32 @@ nav {
 }
 
 .products {
-	.card {
-		background-color: grey;
-		width: 300px;
-	}
-	img {
-		width: 200px;
-	}
+  .card {
+    background-color: grey;
+    width: 300px;
+  }
+  img {
+    width: 200px;
+  }
+}
+
+aside {
+  .dropdown-content {
+    display: none;
+    min-width: 160px;
+    a {
+      display: block;
+    }
+  }
+}
+
+.dropdown {
+  &:hover {
+    .dropdown-content {
+      display: block;
+      a:hover {
+        background-color: #ddd;
+      }
+    }
+  }
 }
